@@ -12,10 +12,10 @@ const Sidebar = () => {
 
   return (
     <aside className="sidebar">
-      <div className="flex size-full flex-col gap-4">
-        <Link href="/" className="sidebar-logo">
+      <div className="flex flex-col gap-4">
+        <Link href="/" className="sidebar-logo" style={{ display: 'flex', alignItems: 'center' }}>
           <Image
-            src="/assets/images/logo-text.svg"
+            src="/assets/images/logo.png"
             alt="logo"
             width={180}
             height={28}
